@@ -1,0 +1,397 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Cisde"
+theme = "cisde-ieu"
+
+[params]
+    slogan = "Centro de investigaciones y direccion estrategica"
+
+[params.faq]
+  [[params.faq.tema]]
+    tema = "Oficialidad"
+    [[params.faq.tema.pregunta]]
+    pregunta = "¿Cuál es el costo de inscripción y de colegiatura?"
+    respuesta = "Inscripción $5500, mensualidad $5000"
+    collapse = "One"
+    show = "true"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuáles son las formas de pago?"
+      respuesta = "Por transferencia electrónica o directamente en ventanilla bancaria."
+      collapse = "Two"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿En cuánto tiempo puedo realizar mi carrera?"
+      respuesta = "Maestría y Doctorado en 2 años.<br>Licenciaturas en 4-5 años"
+      collapse = "Three"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Puedo estudiar dos carreras al mismo tiempo?"
+      respuesta = "No, por normatividad de la Secretaría de Educación Pública no se puede estudiar dos carreras de manera simultánea."
+      collapse = "Four"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué significa modalidad mixta?"
+      respuesta = "Que el plan de estudios está diseñado para cursarse tanto en línea como presencial, se requiere de una plataforma en la cual se pueda compartir material y se tenga un espacio de interacción entre docente y estudiante. "
+      collapse = "Five"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuáles son los horarios?"
+      respuesta = "Hasta ahora, los horarios que se han manejado son viernes de 17:00 hrs a 20:00 hrs y sábados de 9:00-14:00. Sin embargo, también se existe la posibilidad de modificar estos horarios si el docente lo solicita."
+      collapse = "Six"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Como son las clases virtuales?"
+      respuesta = " Mediante el uso de una plataforma se programan actividades independientes para las que el estudiante cuenta con el apoyo del docente."
+      collapse = "Seven"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Quiénes son los maestros?"
+      respuesta = "Nuestra planta académica constituida por docentes con gran experiencia, en su mayoría con grado de Doctorado."
+      collapse = "Eight"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Hay convenios de intercambio?"
+      respuesta = "Actualmente contamos con varios convenios con Instituciones de otros países  lo que permite realizar actividades entre las que se contemplan intercambios. Esta información se le hizo llegar al Mtro. Luis vía correo electrónico. "
+      collapse = "Nine"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Hay becas?"
+      respuesta = "Si"
+      collapse = "Ten"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿En qué consisten las becas?"
+      respuesta = "Tal como se estipula en el Reglamento General Interno, El CISDE cuenta con el siguiente sistema de becas: <br> <ol><li>1. Excelencia. Se otorga al alumno que haya obtenido un promedio de 9.5 o superior durante un cuatrimestre. Ésta se otorga previa solicitud del estudiante al Comité de Becas del CISDE y se oferta de manera cuatrimestral.</li><ol><li> <pre>1.1 El comité de Becas otorgará sólo una beca de excelencia por cada grupo, y corresponderá a la reducción del 50% en el monto de colegiatura correspondiente</li></ol><li>2. Beca de la Secretaría de Educación Pública. El CISDE participa en el programa BK2, en el cual se reduce el 30% del costo de la mensualidad al beneficiario.</li><li><pre>2.1 Esta beca se tramita en la Secretaría, quien emite el listado correspondiente</li><ol>"
+      collapse = "Eleven"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuál es la forma de evaluar?"
+      respuesta = "El docente es quien decide la forma en la que evaluará a los alumnos, sin embargo, la evaluación debe ser acorde al modelo educativo institucional. Ejemplo de estos son proyectos, ensayos, participación en los debates o discusiones que se tienen."
+      collapse = "Twelve"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Evaluar qué?"
+      respuesta = "La evaluación es integral, por lo que se evalúa la participación durante las actividades desarrolladas en  las sesiones, la entrega oportuna de los trabajos solicitados y de los demás criterios que a consideración del titular sean relevantes. "
+      collapse = "Thriteen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué opciones hay de titularme?"
+      respuesta = "Para licenciatura: promedio mínimo de 9.0, elaboración y defensa de tesis, obtención de grado de Licenciatura por Maestría. <br>Para maestría: por promedio (9.0 o superior), elaboración de tesis u obtención de grado por doctorado (el estudiante podrá obtener su título de maestría una vez cubierto el 50% de los créditos de doctorado. <br>Para doctorado: únicamente es posible titularse mediante la defensa de tesis."
+      collapse = "Fourteen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿En qué consisten los diplomados y para qué sirven?"
+      respuesta = "Los diplomados son ofertas de especialización. En algunos casos es posible que un cierto número de diplomados sean equivalentes a un año de estudios de maestría."
+      collapse = "Fifthteen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Hay flexibilidad de horario?"
+      respuesta = "Por su puesto, al tratarse de una modalidad mixta los horarios se ajustan a las necesidades de nuestros estudiantes."
+      collapse = "Sixteen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Que tan flexible es la carrera, para hacerla en mas o menor tiempo?"
+      respuesta = " No se puede hacer en menos tiempo del establecido, la permanencia se puede prolongar si la carga de materias incluye menos de las establecidas semestralmente."
+      collapse = "Seventeen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "Cuando termine la carrera, ¿salgo titulado?"
+      respuesta = "Al terminar la carrera es posible obtener el título, sin embargo esto no es automático ya que se deben cubrir requisitos tanto institucionales como propios de la SEP. A pesar de esto, y en vista de que la institución ya emite títulos digitales desde diciembre de 2018, el tiempo promedio de obtención de título es de un mes. Es importante considerar que esto se ubre únicamente cuando el alumno cumple con los requisitos establecidos por el CISDE para ello, como lo es no tener adeudos en colegiaturas."
+      collapse = "Eighteen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿En que tiempo me titulo después de terminar la carrera?"
+      respuesta = "Una vez que el estudiante cuenta con acta de examen o exención, en un periodo máximo de un mes. No obstante, el tiempo en que el estudiante obtenga su acta de examen o exención variará según el interés que tenga y la fecha de defensa de su tesis, para el caso de doctorado."
+      collapse = "Nineteen"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Existen intercambios académicos?"
+      respuesta = "Si, existen intercambios académicos con fines de investigación y colaboración."
+      collapse = "Twenty"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Con que instituciones?"
+      respuesta = "Revisar el archivo adjunto denominado CONVENIOS, ahí se especifica cuáles son las instituciones y las principales actividades que se desarrollarían."
+      collapse = "Twentyone"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuentan con alguna certificación?"
+      respuesta = "Estamos por recibir la Certificación del ISO 9000:2015"
+      collapse = "Twentytwo"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Sus programas están incorporados a la SEP?"
+      respuesta = "Así es, todos nuestros programas cuentan con Reconocimiento de Validez Oficial (RVOE) SEP."
+      collapse = "Twentythree"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Se pueden consultar los planes de estudio o lista de materias por internet?"
+      respuesta = "Disponibles en nuestra página web."
+      collapse = "Twentyfour"
+    [[params.faq.tema.pregunta]]
+      pregunta = "Obtuve el certificado de bachillerato por medio del examen del Ceneval, Acuerdo 286, ¿puedo ingresar al CISDE con este certificado?"
+      respuesta = "Por su puesto, siempre y cuanto el certificado cuente legalización."
+      collapse = "Twentyfive"
+    [[params.faq.tema.pregunta]]
+      pregunta = "Estudié en otra universidad, ¿puedo revalidar materias al ingresar a una carrera en el CISDE?"
+      respuesta = "Este aspecto está sujeto a la autorización de la SEP."
+      collapse = "Twentysix"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿El CISDE imparte cursos de preparación para el examen de admisión?"
+      respuesta = "Actualmente no, sin embargo, en caso de tener una demanda considerable se podrían ofertar para los niveles que se ofertan."
+      collapse = "Twentyseven"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Existe bolsa de trabajo?"
+      respuesta = "No, sin embargo mediante los convenios de colaboración es posible que los estudiantes se incorporen laboralmente a las instituciones."
+      collapse = "Twentyeight"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cual es el campo de trabajo para el programa educativo de:"
+      respuesta = "<div class='columns is-centered'><div class='column is-two-thirds'><figure class='image is-2by1'><img src='/images/table.png'></figure></div></div>"
+      collapse = "Twentynine"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿El CISDE es una institución educativa reconocida por las autoridades académicas mexicanas?"
+      respuesta = "Si, gracias a las actividades de difusión y la firma de convenios por parte de la Directora Académica y el anterior Director General. <br>Asimismo, El CISDE cuenta con validez oficial ante la SEP, por lo que también es posible consultar la información relativa a los programas en la página de la SEP"
+      collapse = "Thirty"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Que es el RVOE?"
+      respuesta = "El RVOE es el Reconocimiento de Validez Oficial que otorga la SEP a Instituciones de Educación Superior, para el funcionamiento de Programas de  Licenciatura y Posgrados. "
+      collapse = "Thirtyone"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Quién otorga el reconocimiento de validez oficial de estudios?"
+      respuesta = "La Secretaría de Educación Pública"
+      collapse = "Thirtytwo"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cómo puedo comprobar que los títulos del CISDE están reconocidos por la SEP?"
+      respuesta = "Los Títulos son emitidos por la SEP y no por el CISDE. Para comprobarlos basta ver las firmas de las autoridades que validan el documento. Asimismo, al solicitar la cédula profesional el estudiante podrá verificar que el CISDE y cada uno de los programas están registrados en la Dirección General de Profesiones. <br>Cabe mencionar que al ser ya todo el trámite digital, el CISDE únicamente hace la solicitud mediante la plataforma y el título llega directamente al correo del estudiante una vez que es aprobado y emitido. "
+      collapse = "Thirtythree"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Por qué estudiar en línea en el CISDE? ¿Qué me ofrece el CISDE a diferencia de otras universidades similares?"
+      respuesta = "El CISDE ofrece, primeramente, mayor flexibilidad en cuanto a horarios. Asimismo, el personal docente de la institución es reconocido debido a su labor académica y en investigación. Aunado a ello, es CISDE ofrece cursar un doctorado en 2 años, lo que da una ventaja respecto al resto de instituciones en las cuales se deben destinar en promedio 4 años para obtener este grado."
+      collapse = "Thirtyfour"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Es necesario residir en México para ser alumnos del CISDE?"
+      respuesta = "Sí, debido a que nuestros programas no son 100% en línea."
+      collapse = "Thirtyfive"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cómo me inscribo en el CISDE?"
+      respuesta = "El primer paso es acudir para llenar solicitudes y entregar documentación."
+      collapse = "Thirtysix"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué es asesor académico personal?"
+      respuesta = "Un asesor académico personal es un experto del Departamento de Admisiones del CISDE que te guiará en el proceso de admisión. Te recomendará la mejor opción de carga académica, incluyendo el número de materias a la que debes inscribirte según tu disponibilidad, y las mejores opciones de pago. Al inicio, si lo necesitas, te facilitará el proceso de revalidación de materias, acompañándote siempre hasta que estés formalmente inscrito para asegurar que eres alumno de CISDE"
+      collapse = "Thirtyseven"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Tengo que inscribirme en un curso completo de licenciatura o maestría o puedo gestionarlo a mi medida?"
+      respuesta = "Lo recomendable es inscribirse a un curso completo, aunque si se presenta alguna condición especial se trataría entre la Coordinación de Servicios Escolares y la Dirección."
+      collapse = "Thirtyeight"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿El precio de los libros y recursos educativos están incluidos en la inscripción?"
+      respuesta = "No, el material solicitado dependerá del Docente de cada asignatura. Cabe mencionar que en su mayoría son libros digitales y que en la institución se cuenta con acervo vinculado a cada una de las asignaturas al cual los estudiantes pueden acceder. "
+      collapse = "Thirtynine"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuántas veces puedo presentar el examen de una misma materia?"
+      respuesta = "Esto se rige por la SEP, autoridad que propone los siguientes exámenes: Examen ordinario, Examen extraordinario, Examen a título de suficiencia. En caso de que éste último tampoco sea aprobado, el estudiante deberá recursar la materia."
+      collapse = "Fourty"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuál es la función del tutor personalizado?"
+      respuesta = "Brindar seguimiento y apoyo al estudiante que así lo necesita."
+      collapse = "Fourtytwo"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué conocimientos y recursos tecnológicos necesito para estudiar en el CISDE y acceder al aula virtual?"
+      respuesta = "Necesita conocimientos básicos de plataformas educativas, especialmente Moodle, así como conocimientos básicos de office, contar con computadora y acceso a internet."
+      collapse = "Fourtythree"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cómo accedo al aula virtual?"
+      respuesta = "Una vez que el aspirante sea aceptado, se le generará un usuario y contraseña para que acceda a la plataforma, así como la liga de acceso. Este podrá modificarse según la asignatura, sin embargo toda esta información se le notificará vía correo electrónico. "
+      collapse = "Fourtyfour"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué recursos didácticos ofrece el CISDE para apoyar mis estudios?"
+      respuesta = "Se tiene acceso a un acervo bibliográfico especializado en las áreas de estudio que se proponen en el CISDE."
+      collapse = "Fourtyfive"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Cuántas horas a la semana debo dedicar para estudiar?"
+      respuesta = "Al ser modalidad mixta, se espera que el estudiante dedique al menos 1 hora diaria de manera independiente. "
+      collapse = "Fourtysix"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Debo conectarme ciertos días y horas preestablecidos?"
+      respuesta = "Esto será definido por el titular de la asignatura."
+      collapse = "Fourtyseven"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué sistema de evaluación utiliza el CISDE para los estudios de licenciatura, maestría y doctorado?"
+      respuesta = "Es una evaluación continua, en la que se consideran los conocimientos adquiridos y los trabajos realizados, así como la participación de los estudiantes en las actividades propuestas."
+      collapse = "Fourtyeight"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué ventajas tiene estudiar en línea?"
+      respuesta = "Se desarrolla una mayor autonomía y metacognición, ya que el estudiante controla en su mayoría los tiempos que dedica a su estudio y es consciente de los avances que va logrando. Asimismo, permite acomodar mejor los horarios, en el caso de quienes se encuentran laborando, pues no deben acudir todos los días a una institución educativa, sino que pueden dedicar su tiempo libre a cubrir las tareas pendientes. "
+      collapse = "Fourtynine"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Tienen los estudios en línea el mismo nivel de calidad que los cursos presenciales?"
+      respuesta = "Totalmente. Además, el estudiante que realiza un curso virtual llega a desarrollar habilidades que un estudiante de modalidad presencial no."
+      collapse = "Fifty"
+  [[params.faq.tema]]
+    tema = "Titulaciones"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Tienen el mismo valor los títulos en línea que los presenciales?"
+      respuesta = "Totalmente. No hay diferencia ya que en los títulos digitales no se especifica la modalidad de estudio. Además, si el programa cuenta con RVOE vigente y está registrado en la Dirección General de Profesiones, tiene el mismo reconocimiento que un programa presencial."
+      collapse = "Figtytwo"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Qué son los títulos propios?"
+      respuesta = "Son los títulos emitidos por la institución en la cual se realizaron los estudios, mismos que no siempre tienen el reconocimiento de la autoridad federal. En el caso del CISDE no se cuenta con esta opción, únicamente con títulos electrónicos solicitados mediante la plataforma del Estado de Puebla. "
+      collapse = "Fiftythree"
+    [[params.faq.tema.pregunta]]
+      pregunta = "¿Es posible convertir una maestría oficial mexicana en un master oficial europeo?"
+      respuesta = "Solo en casos excepcionales y bajo firma de convenio, ya que por lo general el número de créditos considerados por la Unión Europea para un máster es inferior al definido por los acuerdos en México. "
+      collapse = "Fiftyfour"
+    
+    # Team section
+[params.team]
+  enable = true
+  title = "Plantel Laboral"
+  description = ""
+
+  [[params.team.item]]
+    name = "LUIS ENRIQUE SÁNCHEZ DÍAZ"
+    position = "DIRECTOR GENERAL - 2019"
+    description = ""
+    img = "/images/luis.jpg"
+    email = "#"
+    telephone = "2224220622"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    linkedin = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "CLAUDIA RIVERA HERNÁNDEZ"
+    position = "DIRECTORA ACADÉMICA - 2011"
+    description = "Materias <br>INVESTIGACIÓN DE LAS CIENCIAS SOCIALES"
+    img = "/images/claudia.jpg"
+    email = "#"
+    telephone = "#"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+  [[params.team.item]]
+    name = "RICARDO PAREDES SOLORIO"
+    position = "COORDINADOR DE INVESTIGACIÓN"
+    description = "Materias <br>CIBERPOLÍTICA <br>SEMINARIO DE ANÁLISIS ESTRATÉGICO"
+    img = "/images/ricardo.jpg"
+    email = "#"
+    telephone = "2211510479"
+    facebook = "#"
+    twitter = "#"
+    dribbble = "#"
+    instagram = "#"
+    github = "#"
+    whatsapp = "#"
+
+   [[params.team.item]]
+     name = "YESICA GÓMEZ HERNÁNDEZ"
+     position = "JEFA DE LA OFICINA DE TITULACIÓN - 2015"
+     description = ""
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "2221284788"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+
+   [[params.team.item]]
+     name = "ALEJANDRA FABIOLA FLORES ZAMORA"
+     position = "COORDINADORA DE SERVICIOS ESCOLARES - 2018"
+     description = ""
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "#"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+
+   [[params.team.item]]
+     name = "JORGE DAVID CORTÉS MORENO"
+     position = "DOCENTE - 2011"
+     description = "Materias <br>MICRO Y MACROECONOMÍA <br>DERECHO ELECTORAL <br>SEMINARIO DE INVESTIGACIÓN I"
+     img = "/images/jorge.jpg"
+     email = "#"
+     telephone = "2222171146"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+
+   [[params.team.item]]
+     name = "OBED MEZA ROMERO"
+     position = "DOCENTE - 2015"
+     description = "Materias <br>FINANZAS PÚBLICAS <br>SISTEMA POLÍTICO MEXICANO"
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "2223109084"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+    
+   [[params.team.item]]
+     name = "MARÍA DE LOURDES SÁNCHEZ GÓMEZ"
+     position = "DOCENTE - 2019"
+     description = "Materias <br>SEMINARIO ESTUDIOS DE GOBIERNO I"
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "2461048172"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+    
+   [[params.team.item]]
+     name = "MELVA NAVARRO SEQUEIRA"
+     position = "DOCENTE - 2015"
+     description = "Materias <br>POLÍTICAS PÚBLIAS II <br>SEMINARIO ESTUDIOS DE GOBIERNO II"
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "2223247803"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+
+   [[params.team.item]]
+     name = "VALENTINA CAMPOS CABRAL"
+     position = "DOCENTE - 2015"
+     description = "Materias <br>SISTEMA POLÍTICO MEXICANO <br>ELABORACIÓN DE POLÍTICAS PÚBLICAS"
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "#"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+
+   [[params.team.item]]
+     name = "ISSIS LUZ MARÍA JUÁREZ"
+     position = "DOCENTE - 2018"
+     description = "Materias <br>ANÁLISIS DE POLÍTICAS PÚBLICAS <br>SISTEMAS DEMOCRÁTICOS Y ESTADO DE LA DEMOCRACIA"
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "2221068404"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"
+
+   [[params.team.item]]
+     name = "JOSÉ OJEDA BUSTAMANTE"
+     position = "DOCENTE - 2016"
+     description = "Materias <br>MERCADOTENCIA Y LAS RELACIONES CON LOS MEDIOS TELEVISIVOS EN LAS CAMPAÑAS POLÍTICAS"
+     img = "/images/person3.jpg"
+     email = "#"
+     telephone = "2225647521"
+     facebook = "#"
+     twitter = "#"
+     dribbble = "#"
+     instagram = "#"
+     github = "#"
+     whatsapp = "#"

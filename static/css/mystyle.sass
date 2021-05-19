@@ -1,0 +1,203 @@
+@charset "utf-8"
+
+$cisde-darkblue: #03686B
+$cisde-lightblue: #00DBCB
+$cisde-darkgreen: #008478
+$cisde-lightgreen: #00AD8C
+$cisde-white: #D6F2EE
+$cisde-black: #181F38
+$cisde-grey: #68748E
+
+$light: #000
+$primary: $cisde-darkblue
+$danger: $cisde-lightgreen
+$info: $cisde-lightblue
+$info-invert: red
+$success: $cisde-darkgreen
+$success-invert: $cisde-white
+$info-invert: $cisde-white
+
+@import ../../resources/bulma/bulma.sass
+
+/* This is mine
+
+.fa-li
+    color: $cisde-lightgreen
+
+.fixedCustom
+    position: fixed
+    top: 0
+    width: 100vw
+    z-index: 10
+
+.heroe
+    @media only screen and (max-width:768px)
+        margin-top: 15vh
+
+.heroSlider
+    
+    z-index: 2
+
+.top-label
+    color: #D6F2EE !important
+
+.loaderMine
+    display: flex
+    left: 0
+    top: 0
+    align-items: center
+    justify-content: center
+    width: 100vw
+    height: 100vh
+    background: #fff
+    z-index: 100
+
+.extraNav
+    @media only screen and (min-width: 1024px)
+        max-width: 500px
+
+// #navbarBasicExample
+//     padding: 40px
+    
+.navbar-menu
+    @media screen and (max-width: 1023px)
+        background-color: $cisde-darkgreen
+
+.extraLabel
+    flex-grow: 0
+    padding: 1rem 0 !important
+
+.iconos
+    .icon
+        font-size: 8rem
+
+    .column
+        margin-top: 3rem
+        text-align: center
+        border-style: none solid
+        border-width: 3px
+        border-color: #fd2f21
+
+        &:nth-child(1)
+            border-style: none solid none none
+
+            i
+                color: $cisde-darkblue
+
+                &:hover
+                    color: #fd2f21
+
+        &:nth-child(2)
+            i
+                color: $cisde-darkgreen
+
+                &:hover
+                    color: #fd2f21
+
+        &:nth-child(3)
+            i
+                color: $cisde-lightgreen
+
+                &:hover
+                    color: #fd2f21
+
+        &:nth-child(4)
+            border-style: none none none solid
+
+            i
+                color: $cisde-lightblue
+
+                &:hover
+                    color: #fd2f21
+
+    i
+        cursor: pointer
+
+    .title
+        color: $cisde-black
+        margin-top: 1rem
+
+    .notification
+        border-style: none !important
+        margin: 0 0.5rem
+
+.notificaciones
+    margin-top: 3rem
+
+li.is-active
+    a
+        color: $cisde-black !important
+        border-bottom: 3px
+        border-bottom-color: $cisde-black !important
+        border-style: none none solid none
+
+.navbar-link
+    color: white !important
+    background: $cisde-darkgreen !important
+
+.opanav
+    opacity: 0.7
+
+.navbar
+    border-radius: 5px
+    @media only screen and (max-width:768px)
+        border-radius: 0px 
+        
+    .navbar-link
+        color: white !important
+        background: $primary !important
+
+        
+
+    .navbar-dropdown
+        background: $cisde-darkgreen !important
+
+    .icon
+        padding: 0 0.5rem
+
+    i
+        color: white !important
+        font-size: 2rem
+        &:hover
+            color: $cisde-lightgreen !important
+
+.navbar-item
+    color: white !important
+    img
+        padding-top: 5px
+        max-height: none
+        height: auto
+    &:hover
+        background: rgba(3, 104, 107, 0.21) !important
+        border-radius: 30px
+        filter: blur(0.3px)
+
+.firstContent
+    .notification
+        padding: 3rem
+
+.footer
+    font-size: 2.5rem
+
+    i
+        font-size: 3rem
+
+    .icon
+        padding: 0 3rem
+
+.callToAction
+    background: url(/images/call.jpg)
+
+.navbar-burger
+    top: 25px
+    right: 35px
+    span
+        width: 40px
+        left: calc(50% - 20px)
+
+// *:not(path):not(g)
+//     color: hsla(210, 100%, 100%, 0.9) !important
+//     background: hsla(210, 100%,  50%, 0.5) !important
+//     outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important
+
+//     box-shadow: none !important

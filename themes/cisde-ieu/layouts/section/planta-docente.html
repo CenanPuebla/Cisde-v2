@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+{{ partial "loader.html" . }}
+{{ partial "nav.html" . }}
+{{ partial "hero.html" . }}
+{{ partial "cards.html" . }}
+{{ partial "iconos.html" . }}
+{{ partial "valores.html" . }}
+{{ partial "descripciones.html" . }}
+
+{{ partial "callToAction.html" . }}
+{{ partial "contacto.html" . }}
+{{ partial "footer.html" . }}
+
+<script>
+    window.addEventListener('load', function () {
+        document.querySelector('.heroSlider').style.display = "none";
+    });
+</script>
+
+{{ end }}

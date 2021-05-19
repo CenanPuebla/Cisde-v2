@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<script type="text/javascript" async="true">
+    (function () {
+        var defaultSettings = {
+            locale: 'es',
+            autoOpenLauncher: false,
+            participants: [],
+            messages: []
+        }
+        var settings = Object.assign(defaultSettings, window['wa-widget-settings'] || {})
+
+        // Create the basic web component for the widget
+        var widget = document.createElement('wa-widget')
+        widget.setAttribute('token', 'NVSOw3V9HgwZr5LFmRbPWI2YhYB53rBR')
+        // Chat window settings
+        widget['participants'] = settings.participants
+        widget['messages'] = settings.messages
+        // Language
+        widget.setAttribute('locale', settings.locale)
+
+        // Launcher settings
+        widget.setAttribute('hide-on-mobile', false)
+        widget.setAttribute('hide-on-desktop', false)
+        if ('right-bottom') {
+            widget.setAttribute('launcher-position', 'right-bottom')
+        }
+        widget.setAttribute('auto-open-launcher', settings.autoOpenLauncher)
+        widget.setAttribute('just-button', true)
+        widget.setAttribute('button-number', '522221110150')
+        if ('Nececito...') {
+            widget.setAttribute('button-message', 'Nececito...')
+        }
+
+        // Tooltip Settings
+        widget.setAttribute('tooltip-enabled', 'true')
+        if ('Contactar ahora') {
+            widget.setAttribute('tooltip-text', 'Contactar ahora')
+        }
+
+        document.body.appendChild(widget)
+
+        // Append the JS for the web component
+        var script = document.createElement('script')
+        script.type = 'text/javascript'
+        script.src = 'https://widget.sirena.app/js/app.js'
+        document.body.appendChild(script)
+
+        // Append the CSS for the web component
+        var link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = 'https://widget.sirena.app/css/app.css'
+        document.head.appendChild(link)
+    })()
+</script>
+
+{{ partial "loader.html" . }}
+{{ partial "nav.html" . }}
+{{ partial "hero.html" . }}
+{{ partial "iconos.html" . }}
+{{ partial "logos.html" . }}
+{{ partial "valores.html" . }}
+{{ partial "descripciones.html" . }}
+
+{{ partial "callToAction.html" . }}
+{{ partial "contacto.html" . }}
+{{ partial "footer.html" . }}
+
+{{ end }}

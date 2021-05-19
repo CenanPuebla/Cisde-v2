@@ -1,0 +1,53 @@
+<section class="section" style="margin-top: 5vh">
+    <div class="container has-background-red">
+        <div class="columns is-multiline">
+            {{ with .Site.Params.team }}
+            {{ range .item }}
+            <div class="column is-3">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by2">
+                            <img src="{{ .img }}" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img src="/images/cisde.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <p class="title is-4">{{ .name }}</p>
+                                <p class="subtitle is-6">{{ .position }}</p>
+                            </div>
+                        </div>
+
+                        <div class="content">
+                            {{ .description | markdownify }}
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" target="_blank" rel="noopener noreferrer"><span class="icon"><i
+                                    class="fab fa-facebook-square"></i></span></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><span class="icon"><i
+                                    class="fab fa-twitter-square"></i></span></a>
+                        <a href="#" target="_blank" rel="noopener noreferrer"><span class="icon"><i
+                                    class="fab fa-instagram"></i></i></span></a>
+                    </footer>
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<style>
+    .card:hover {
+        transform: translate(0, -4px);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+</style>

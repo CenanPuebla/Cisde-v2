@@ -1,0 +1,100 @@
+<section class="heroe">
+    <div class="columns is-centered">
+        <div class="column is-full has-background-light">
+            <div class="columns">
+                <div class="column is-full">
+                    <div class="heroSlider">
+                        <div class="column is-full is-paddingless">
+                            <figure class="image">
+                                <img class="innerImage" src="/images/1.jpg" alt="1">
+                            </figure>
+                        </div>
+                        <div class="column is-full is-paddingless">
+                            <figure class="image">
+                                <img class="innerImage" src="/images/2.jpg" alt="2">
+                            </figure>
+                        </div>
+                        <div class="column is-full is-paddingless">
+                            <figure class="image">
+                                <img class="innerImage" src="/images/3.jpg" alt="4">
+                            </figure>
+                        </div>
+                        <div class="column is-full is-paddingless">
+                            <figure class="image">
+                                <img class="innerImage" src="/images/4.jpg" alt="4">
+                            </figure>
+                        </div>
+                        <div class="column is-full is-paddingless">
+                            <figure class="image">
+                                <img class="innerImage" src="/images/5.jpg" alt="4">
+                            </figure>
+                        </div>
+                        <div class="column is-full is-paddingless">
+                            <figure class="image">
+                                <img class="innerImage" src="/images/6.jpg" alt="4">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    let sliderImgs = document.querySelectorAll('.innerImage');
+    if (window.innerWidth < 768) {
+        sliderImgs[0].setAttribute("src", "/images/1M.jpg");
+        sliderImgs[1].setAttribute("src", "/images/2M.jpg");
+        sliderImgs[2].setAttribute("src", "/images/3M.jpg");
+        sliderImgs[3].setAttribute("src", "/images/4M.jpg");
+        sliderImgs[4].setAttribute("src", "/images/5M.jpg");
+        sliderImgs[5].setAttribute("src", "/images/6M.jpg");
+        document.querySelector('.heroe').style["margin-top"] = "10vh";
+    }
+    console.log(window.innerWidth);
+    window.addEventListener('resize', () => {
+        if (window.innerWidth < 768) {
+            sliderImgs[0].setAttribute("src", "/images/1M.jpg");
+            sliderImgs[1].setAttribute("src", "/images/2M.jpg");
+            sliderImgs[2].setAttribute("src", "/images/3M.jpg");
+            sliderImgs[3].setAttribute("src", "/images/4M.jpg");
+            sliderImgs[4].setAttribute("src", "/images/5M.jpg");
+            sliderImgs[5].setAttribute("src", "/images/6M.jpg");
+            document.querySelector('.heroe').style["margin-top"] = "10vh";
+        } else {
+            sliderImgs[0].setAttribute("src", "/images/1.jpg");
+            sliderImgs[1].setAttribute("src", "/images/2.jpg");
+            sliderImgs[2].setAttribute("src", "/images/3.jpg");
+            sliderImgs[3].setAttribute("src", "/images/4.jpg");
+            sliderImgs[4].setAttribute("src", "/images/5.jpg");
+            sliderImgs[5].setAttribute("src", "/images/6.jpg");
+            document.querySelector('.heroe').style["margin-top"] = "0vh";
+        }
+        if (window.innerWidth < 1216) {
+            console.log(document.querySelectorAll('.control.has-icons-left'));
+            document.querySelectorAll('.control .has-icons-left').forEach(elem => {
+                elem.classList.toggle('has-icons-left');
+            });
+        }
+    });
+
+    let topHero = new Siema({
+        selector: '.heroSlider',
+        duration: 200,
+        easing: 'ease-out',
+        perPage: 1,
+        startIndex: 0,
+        draggable: true,
+        multipleDrag: true,
+        threshold: 20,
+        loop: true,
+        rtl: false,
+        onInit: () => {},
+        onChange: () => {},
+    });
+
+    setInterval(() => {
+        topHero.next();
+    }, 5000);
+</script>

@@ -1,0 +1,76 @@
+<section class="section">
+    <div class="container">
+        <div class="columns is-centered is-multiline">
+            <div class="column is-two-thirds has-text-centered">
+                <h1 class="title is-size-2"><b>Convenios</b></h1>
+            </div>
+            <div class="column is-two-thirds">
+                <div class="logoSlider">
+                    <div class="">
+                        <a href="https://www.reduc.edu.cu/" target="_blank">
+                            <figure class="image is-2by1">
+                                <img src="/images/logos/cuba.png" alt="" width="200px">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="http://www.iesalc.unesco.org/" target="_blank">
+                            <figure class="image is-2by1">
+                                <img src="/images/logos/orsalc.png" alt="" width="200px">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="https://www.conacyt.gob.mx/index.php/el-conacyt/registro-nacional-de-instituciones-y-empresas-cientificas-y-tecnologicas-reniecyt" target="_blank">
+                            <figure class="image is-2by1">
+                                <img src="/images/logos/reniecyt.png" alt="" width="200px">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="https://fb.com" target="_blank">
+                            <figure class="image is-2by1">
+                                <img src="/images/logos/reoalcel.png" alt="" width="200px">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="https://www.gob.mx/sep" target="_blank">
+                            <figure class="image is-2by1">
+                                <img src="/images/logos/sep.png" alt="" width="200px">
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="">
+                        <a href="https://www.conacyt.gob.mx/index.php/el-conacyt/sistema-nacional-de-investigadores" target="_blank">
+                            <figure class="image is-2by1">
+                                <img src="/images/logos/sni.png" alt="" width="200px">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    let logos = new Siema({
+        selector: '.logoSlider',
+        duration: 200,
+        easing: 'ease-out',
+        perPage: 2,
+        startIndex: 0,
+        draggable: true,
+        multipleDrag: true,
+        threshold: 20,
+        loop: true,
+        rtl: false,
+        onInit: () => {},
+        onChange: () => {},
+    });
+
+    setInterval(() => {
+        logos.next();
+    }, Math.floor(Math.random() * (5000 - 3500) ) + 3500 );
+</script>
